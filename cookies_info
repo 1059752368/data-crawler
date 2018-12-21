@@ -1,0 +1,6 @@
+create table cookies_info(
+account_id int(5) not null,
+use_date date not null,
+status int(1) not null,
+status_last_change_time datetime not null                           
+)ENGINE=innodb DEFAULT CHARSET=utf8; 
